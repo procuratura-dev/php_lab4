@@ -1,0 +1,68 @@
+header {
+    background-color: rgb(221, 221, 221);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_mid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocks {
+    background-color: darkgray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 3px;
+}
+
+fieldset{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.e_form {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.e_form input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 40px;
+}
+.e_form textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+.submit input{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.comment-result {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+}
+.comment-result p {
+    margin: 0 0 10px;
+    line-height: 1.5;
+}
+.comment-result b {
+    color: #333;
+}
